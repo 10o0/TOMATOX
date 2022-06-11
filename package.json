@@ -54,12 +54,12 @@
   },
   "build": {
     "productName": "TOMATOX",
-    "copyright": "Copyright @ 2021 yanjiaxuan",
-    "appId": "github.yanjiaxuan.tomatox",
+    "copyright": "Copyright @ 2021 10o0",
+    "appId": "github.10o0.tomatox",
     "publish": [
       {
         "provider": "github",
-        "owner": "yanjiaxuan",
+        "owner": "10o0",
         "repo": "TOMATOX"
       }
     ],
