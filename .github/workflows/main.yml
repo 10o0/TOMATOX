@@ -2,7 +2,7 @@
 # main.yml
 
 # Workflow's name
-name: Build TOMATOX For Win/Mac/Linux
+name: Build TOMATOX For Win
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
+        os: [windows-latest]
 
     steps:
       - uses: actions/checkout@v2
